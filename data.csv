@@ -1,10 +1,17 @@
-Group,Title,Image,Description,Address,Latitude,Longitude,Found Address,Match Quality,Source
-a,Trinity College,https://www.edx.org/sites/default/files/trinity1.jpg,"Not in the link <a href=""http://www.trincoll.edu"" target=""_blank"">view website</a> more not in the link","300 Summit St, Hartford CT 06106",41.745167,-72.69263,"300 SUMMIT ST, HARTFORD, CT, 06106",Exact,US Census
-a,Wesleyan University,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://wesleyan.edu"" target=""_blank"">view website</a>",45 Wyllys Ave Middletown CT 06459,41.55709,-72.65691,"45 WYLLYS AVE, MIDDLETOWN, CT, 06459",Exact,US Census
-a,Connecticut College,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://conncoll.edu"" target=""_blank"">view website</a>","270 Mohegan Ave, New London CT",41.381435,-72.10469,"270 MOHEGAN AVE PKWY, NEW LONDON, CT, 06320",Match,US Census
-a,Yale University,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://yale.edu"" target=""_blank"">view website</a>",149 Elm St New Haven CT,41.309155,-72.92635,"149 ELM ST, NEW HAVEN, CT, 06511",Match,US Census
-a,University of Connecticut-Storrs,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://uconn.edu"" target=""_blank"">view website</a>","369 Fairfield Way, Storrs CT 06269",41.80665,-72.25352,"369 FAIRFIELD RD, STORRS, CT, 06269",Match,US Census
-a,Capital Community College,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://capitalcc.edu"" target=""_blank"">view website</a>",950 Main St Hartford CT,41.69861,-72.72414,"950 MAIN ST, HARTFORD, CT, 06111",Match,US Census
-b,Dinosaur State Park,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""www.dinosaurstatepark.org/"" target=""_blank"">view website</a>",400 West St Rock Hill CT 06067,41.652546,-72.65743,"400 WEST ST, ROCKY HILL, CT, 06067",Match,US Census
-b,Hammonasset State Park,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""www.ct.gov/deep/hammonasset"" target=""_blank"">view website</a>","1288 Boston Post Road, Madison CT 06443",41.273247,-72.56934,"1288 BOSTON POST RD, MADISON, CT, 06443",Match,US Census
-c,State Capitol Building,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,State government office,"210 Capitol Ave, Hartford CT 06106",41.762848,-72.68245,"210 CAPITOL AVE, HARTFORD, CT, 06106",Exact,US Census
+SDG Goal,Title,Project Description,Address,Latitude,Longitude
+GOAL 1 - No Poverty,Interhelp,Platform (website) aimed as an intermediate between the givers(those who share) and the receivers(those who need) to share free and discount resources for food and basic needs of students in Melbourne.,"300 Summit St, Hartford CT 06106",151.1534543,-33.95980772
+GOAL 1 - No Poverty,OLIO app," Share more, waste less
+""Connecting Neigbours and shops so surplus food and other items can be shared""",45 Wyllys Ave Middletown CT 06459,151.2065695,-33.87585977
+GOAL 2 - Zero Hunger,Foodbank Victoria,,"270 Mohegan Ave, New London CT",150.9853916,-33.85389592
+GOAL 2 - Zero Hunger,Interhelp,,149 Elm St New Haven CT,145.2149614,-37.98990983
+GOAL 2 - Zero Hunger,One Tummy,,"369 Fairfield Way, Storrs CT 06269",145.2372508,-38.44948514
+GOAL 3 - Good Health and Well-being,RUOK,,950 Main St Hartford CT,146.5375269,-38.19753016
+GOAL 3 - Good Health and Well-being,SPILL YOUR TEA,,400 West St Rock Hill CT 06067,144.8318105,-37.78553967
+GOAL 3 - Good Health and Well-being,YSHY Short for your Sexual Health Yard,,"1288 Boston Post Road, Madison CT 06443",145.238317,-38.45488082
+GOAL 4 - Quality Education,Titans,,"210 Capitol Ave, Hartford CT 06106",153.012875,-27.38100707
+GOAL 4 - Quality Education,Delta Dot Edu,,,145.0749441,-37.91601397
+GOAL 6 - Clean Water and Sanitation,Clean water and Sanitation,,,115.7882208,-32.03557597
+GOAL 7- Affordable and Clean Energy,Creative Protocol,,,115.9381583,-32.10634723
+GOAL 8- Decent Work and Economic Growth,Stepping Zone,,,150.8999578,-33.76178182
+GOAL 8- Decent Work and Economic Growth,MCISS (Monash Community of International Students in Science),,,145.1168876,-37.92852538
+GOAL 12- Decent Work and Economic Growth,Brewcyclers,,,150.9280474,-33.88435718
