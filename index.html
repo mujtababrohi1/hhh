@@ -61,37 +61,6 @@
     // Use PapaParse to convert string to array of objects
     var data = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
 
-   // trying new wdgets
-    <div id="sidebar">
-      sidebar.getContainer()
-    <h1>leaflet-sidebar</h1>
-</div>
-    var sidebar = L.control.sidebar('sidebar', {
-    position: 'left'
-});
-
-map.addControl(sidebar);
-    sidebar.toggle();
-
-// Check sidebar visibility
-// Show sidebar
-sidebar.show();
-
-// Hide sidebar
-sidebar.hide();
-
-// Toggle sidebar visibility
-sidebar.toggle();
-
-// Check sidebar visibility
-var visible = sidebar.isVisible();
-    setTimeout(function () {
-    sidebar.show();
-}, 500);
-    sidebar.setContent('test <b>test</b> test');
-    sidebar.on('hidden', function () {
-    console.log('Sidebar is now hidden.');
-});
     
     // For each row in data, create a marker and add it to the map
     // For each row, columns `Latitude`, `Longitude`, and `Title` are required
@@ -106,7 +75,28 @@ var visible = sidebar.isVisible();
     }
 
   })
-
   </script>
+  <script>
+    #!/bin/bash
+
+set -e
+
+eval "$(ssh-agent -s)"
+
+openssl aes-256-cbc -K $encrypted_f72e501d769d_key -iv $encrypted_f72e501d769d_iv -in .travis/deploy_key.pem.enc -out .travis/deploy_key.pem -d
+chmod 600 .travis/deploy_key.pem
+ssh-add .travis/deploy_key.pem
+
+mkdir gh-pages
+cd gh-pages
+cp -R ../examples ../src .
+
+git init
+git config user.name "Travis"
+git config user.email "noreply@travis-ci.org"
+git add .
+git commit -m "Deploy to GitHub Pages"
+git push --force --quiet git@github.com:Turbo87/leaflet-sidebar.git master:gh-pages > /dev/null 2>&1
+    </script?
 </body>
 </html>
