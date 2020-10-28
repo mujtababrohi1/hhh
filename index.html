@@ -61,6 +61,38 @@
     // Use PapaParse to convert string to array of objects
     var data = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
 
+   // trying new wdgets
+    <div id="sidebar">
+      sidebar.getContainer()
+    <h1>leaflet-sidebar</h1>
+</div>
+    var sidebar = L.control.sidebar('sidebar', {
+    position: 'left'
+});
+
+map.addControl(sidebar);
+    sidebar.toggle();
+
+// Check sidebar visibility
+// Show sidebar
+sidebar.show();
+
+// Hide sidebar
+sidebar.hide();
+
+// Toggle sidebar visibility
+sidebar.toggle();
+
+// Check sidebar visibility
+var visible = sidebar.isVisible();
+    setTimeout(function () {
+    sidebar.show();
+}, 500);
+    sidebar.setContent('test <b>test</b> test');
+    sidebar.on('hidden', function () {
+    console.log('Sidebar is now hidden.');
+});
+    
     // For each row in data, create a marker and add it to the map
     // For each row, columns `Latitude`, `Longitude`, and `Title` are required
     for (var i in data) {
