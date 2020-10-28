@@ -1,17 +1,16 @@
-SDG Goal,Title,Project Description,Address,Latitude,Longitude
-GOAL 1 - No Poverty,Interhelp,Platform (website) aimed as an intermediate between the givers(those who share) and the receivers(those who need) to share free and discount resources for food and basic needs of students in Melbourne.,"300 Summit St, Hartford CT 06106",151.1534543,-33.95980772
-GOAL 1 - No Poverty,OLIO app," Share more, waste less
-""Connecting Neigbours and shops so surplus food and other items can be shared""",45 Wyllys Ave Middletown CT 06459,151.2065695,-33.87585977
-GOAL 2 - Zero Hunger,Foodbank Victoria,,"270 Mohegan Ave, New London CT",150.9853916,-33.85389592
-GOAL 2 - Zero Hunger,Interhelp,,149 Elm St New Haven CT,145.2149614,-37.98990983
-GOAL 2 - Zero Hunger,One Tummy,,"369 Fairfield Way, Storrs CT 06269",145.2372508,-38.44948514
-GOAL 3 - Good Health and Well-being,RUOK,,950 Main St Hartford CT,146.5375269,-38.19753016
-GOAL 3 - Good Health and Well-being,SPILL YOUR TEA,,400 West St Rock Hill CT 06067,144.8318105,-37.78553967
-GOAL 3 - Good Health and Well-being,YSHY Short for your Sexual Health Yard,,"1288 Boston Post Road, Madison CT 06443",145.238317,-38.45488082
-GOAL 4 - Quality Education,Titans,,"210 Capitol Ave, Hartford CT 06106",153.012875,-27.38100707
-GOAL 4 - Quality Education,Delta Dot Edu,,,145.0749441,-37.91601397
-GOAL 6 - Clean Water and Sanitation,Clean water and Sanitation,,,115.7882208,-32.03557597
-GOAL 7- Affordable and Clean Energy,Creative Protocol,,,115.9381583,-32.10634723
-GOAL 8- Decent Work and Economic Growth,Stepping Zone,,,150.8999578,-33.76178182
-GOAL 8- Decent Work and Economic Growth,MCISS (Monash Community of International Students in Science),,,145.1168876,-37.92852538
-GOAL 12- Decent Work and Economic Growth,Brewcyclers,,,150.9280474,-33.88435718
+Title,Latitude,Longitude
+Interhelp,151.1534543,-33.95980772
+OLIO app,151.2065695,-33.87585977
+Foodbank Victoria,150.9853916,-33.85389592
+Interhelp,145.2149614,-37.98990983
+One Tummy,145.2372508,-38.44948514
+RUOK,146.5375269,-38.19753016
+SPILL YOUR TEA,144.8318105,-37.78553967
+YSHY Short for your Sexual Health Yard,145.238317,-38.45488082
+Titans,153.012875,-27.38100707
+Delta Dot Edu,145.0749441,-37.91601397
+Clean water and Sanitation,115.7882208,-32.03557597
+Creative Protocol,115.9381583,-32.10634723
+Stepping Zone,150.8999578,-33.76178182
+MCISS (Monash Community of International Students in Science),145.1168876,-37.92852538
+Brewcyclers,150.9280474,-33.88435718
